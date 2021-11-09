@@ -1,0 +1,62 @@
+<DOCTYPE html>
+<html>
+<body>
+<p>logical operators</p>
+<script>
+	<p>or operator</p>
+	let hour = 6;//OR
+	if( hour<6||hour>3){
+		alert("no office");
+	}
+</script>
+<script>
+	if(1||0){
+		alert("true");
+	}
+	if(0||1){
+		alert("true");
+	}
+	if(0||0){
+		alert("false");
+	}
+	if(1||1){
+		alert("true");
+	}
+</script>
+<script>
+	let firstname=" ";
+	let lastname =" ";
+	let fullname ="keerthi jn";
+	alert(firstname||lastname||fullname||"Anonymous");
+</script>
+<script>//and operator
+<p>and operator</p>
+let x=1;
+if (x<0)
+	alert('wont work');
+</script>
+<script>
+	let hour = 12;
+let minute = 30;
+
+if (hour == 12 && minute == 30) {
+  alert( 'The time is 12:30' );
+}
+</script>
+<script>
+	alert(1&&0);
+	alert(0&&1);
+	alert(1&&1);
+	alert(1&&1&&1);
+	alert(0&&1&&1);
+	alert(1&5);
+	alert(1&&1&&0);
+	alert(null&&5);
+</script>
+<script>//!operator
+	<p>!operator</p>
+	alert( !true );
+     alert( !0 );
+</script>
+</body>
+</html>

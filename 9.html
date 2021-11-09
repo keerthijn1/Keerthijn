@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>//while loop
+let i=0;
+while(i<5){
+	alert(i++);
+}
+</script>
+<script>//do while
+	let i=0;
+	do{
+		alert(i++);
+	}while(i<5)
+</script>
+<script>//for
+	for(i=0;i<2;i++)
+		alert(i);
+</script>
+<script>//break
+let sum =0;
+while(true){
+	let value = +prompt('enter number',' ');
+	if(!value)break;
+sum +=value;
+}
+alert ('sum:' + sum);
+</script>
+<script>//continue
+	for (let i = 0; i < 10; i++) {
+  if (i % 2 == 0) continue;
+
+  alert(i); // 1, then 3, 5, 7, 9
+}
+</script>
+</body>
+</html>
